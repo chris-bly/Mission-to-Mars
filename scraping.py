@@ -104,7 +104,7 @@ def mars_facts():
 def hemisphere_image(browser):
 
     # 1. Use browser to visit the URL 
-    url = 'https://marshemispheres.com/'
+    url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     browser.visit(url)
 
     # 2. Create a list to hold the images and titles.
@@ -126,7 +126,7 @@ def hemisphere_image(browser):
             results = {}
             # Find link to picture and open it
             link_image = hemispheres_page_soup.select("div.description a")[i].get('href')
-            browser.visit(f'https://marshemispheres.com/{link_image}')
+            browser.visit(f'https://astrogeology.usgs.gov{link_image}')
             
             # Parse the new html page with soup
             html = browser.html
