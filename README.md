@@ -11,6 +11,6 @@ The web app developed in the asynchronous content was updated with the full-reso
 ### Deliverable 3
 Boostrap components were added to ensure the app would properly render for multiple different devices and formats using the Bootstrap 3 Grid System. In addition, an image of a Mars landscape was added to the scrape button banner atop the website , as well as thumbnails and links to the full resolution images of Mars' hemispheres to satisfy the requirements of this deliverable.
 
-The following is a screengrab of how the site appears with scraped data and retrieved from the Mongo database:
+#### The following is a screengrab of how the site appears with scraped data and retrieved from the Mongo database:
 
-!()[]
+![Mission to Mars Web App](resources/mission_to_mars_screengrab.png)
